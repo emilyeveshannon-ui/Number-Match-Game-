@@ -42,7 +42,7 @@ const setImageSrc = (randomImageName) => {
   }
 
   const image = document.createElement("img");
-  image.src = `images/${randomImageName}`;   // FIXED capital I
+  image.src = `Images/${randomImageName}`;   // FIXED capital I
   image.classList.add("fade");
   imageContainer.appendChild(image);
 };
